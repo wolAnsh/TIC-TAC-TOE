@@ -1,0 +1,103 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color:#41B06E;
+    text-align: center;
+}
+
+.new{
+    padding: 10px;
+    background-color: black;
+    border-radius: 14%;
+    color: #ededed;
+    margin-top: 240px;
+}
+.text{
+    color: #ededed;
+    font-size:80px ;
+    margin-top: 100px;
+}
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    gap: 3px;
+}
+.anime{
+    height: 4px;
+    width: 4px;
+    gap: 2px;
+    background-color: #ffffff;
+    animation: move 2s infinite;
+    border-radius: 50%;
+}
+.anime:nth-child(2) {
+    animation-delay: 0.5s; 
+}
+.anime:nth-child(3) {
+    animation-delay: 1s;   
+}
+.anime:nth-child(4) {
+    animation-delay: 1.5s;  
+}
+
+@keyframes move{
+            0% { transform: translateY(0); }
+            50% { transform: translateY(8px); }
+            100% { transform: translateY(0); }
+}
+.game{
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 60vh;
+    width: 60vh;
+    border: black;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vmin;
+}
+
+.box{
+    height: 18vh;
+    width: 18vh;
+    background-color: #ffffff;
+    border-radius: 20%;
+    font-size: 8vmin;
+    
+}
+.restart{
+    padding: 10px;
+    background-color: black;
+    border-radius: 14%;
+    color: #ededed;
+}
+
+
+#msg {
+    color: #ffffc7;
+    font-size: 5vmin;
+  }
+  
+  .msg-container {
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+  }
+  
+  .hide {
+    display: none;
+  }
