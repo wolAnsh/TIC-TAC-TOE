@@ -1,2 +1,2 @@
-Hello,This is my first project
-i am a 1st year student at IIIT ALLAHABAD
+Hello,This is my first project<br>
+i am a 1st year student at<b> IIIT ALLAHABAD</b>
